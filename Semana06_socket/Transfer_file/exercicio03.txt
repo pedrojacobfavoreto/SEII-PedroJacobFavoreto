@@ -1,0 +1,12 @@
+1) O UDP possui um tamanho padrão de 8 bytes. Já o TCP possui os pacotes com tamanhos entre 20 bytes e 60 bytes.
+
+
+2) Um arquivo grande pode ser transmitido via internet sividindu-o em tamanhos limitados e ordenados. Após isso, 
+são enviados em sequência por meio de um protocolo de transporte e no final essas repartições são unidas novamente.
+
+
+3) Para o envio de grandes arquivos, o protocolo TCP realiza o chamado Handshake para que as duas máquinas se reconheçam
+e se conectem. Após esse processo, os pacotes são divididos de forma ordenada e enviados. É feita uma verificação de a cada 
+período definido. Já o UDP faz a divisão dos arquivos, porém é necessário iniciar uma conexão. Sendo assim os pacotes são 
+enviados sem uma verificação posterior.
+
